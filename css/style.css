@@ -1,0 +1,12 @@
+:root{--bg:#f5f7fb;--card:#fff;--accent:#0b63d6;--muted:#6b7280}
+body{margin:0;padding:32px;font-family:system-ui;background:var(--bg)}
+.wrap{max-width:900px;margin:auto}
+.card{background:var(--card);border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+header{display:flex;gap:20px;padding:28px}
+.avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6cb8ff);display:flex;align-items:center;justify-content:center;color:#fff;font-size:28px;font-weight:700}
+.muted{color:var(--muted);font-size:13px}
+main{display:grid;grid-template-columns:1fr 320px;gap:28px;padding:28px}
+.item{padding:12px;border-radius:8px;background:#fbfdff;margin-bottom:10px}
+.skills{display:flex;gap:8px}
+.skill{padding:6px 10px;background:#eef6ff;border-radius:999px;color:var(--accent)}
+footer{padding:14px 28px;border-top:1px solid #eee;color:var(--muted);text-align:right}
